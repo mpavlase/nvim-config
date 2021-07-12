@@ -39,9 +39,9 @@ set wildignore+=*/node_nodules/*
 set list
 
 set termguicolors
-"colorscheme darcula
-set bg=light
-colorscheme PaperColor
+colorscheme darcula
+"set bg=light
+"colorscheme PaperColor
 
 
 " ==========================================
