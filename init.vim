@@ -4,6 +4,7 @@ call plug#begin()
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'doums/darcula'
+Plug 'NLKNguyen/papercolor-theme'
 
 call plug#end()
 
@@ -30,7 +31,9 @@ set foldlevel=1         "this is just what i use
 set list
 
 set termguicolors
-colorscheme darcula
+"colorscheme darcula
+set bg=light
+colorscheme PaperColor
 
 
 " ==========================================
