@@ -27,6 +27,12 @@ set foldmethod=indent   "fold based on indent
 set foldnestmax=2      "deepest fold is 10 levels
 set foldlevel=1         "this is just what i use
 
+let g:netrw_browse_split=4      "open files prior windows
+let g:netrw_altv=1              "open splits to the right
+
+set path=.,**
+set wildignore+=*/node_nodules/*
+
 "show non-printable characters
 set list
 
