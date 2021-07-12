@@ -1,23 +1,8 @@
-let g:ale_fix_on_save = 1
-"let g:ale_linter_aliases = {'vue': 'javascript'}
-"\   'typescript': ['eslint', 'remove_trailing_lines'],
-let g:ale_fixers = {
-\   'javascript': ['eslint', 'remove_trailing_lines'],
-\   'vue': ['eslint', 'remove_trailing_lines'],
-\   '*': ['remove_trailing_lines', 'trim_whitespace'],
-\}
-
-let g:ale_linter_aliases = {'vue': ['vue', 'javascript']}
-let g:ale_linters = {'vue': ['eslint', 'vls']}
-
-let g:ale_javascript_eslint_use_global = 1
-"let g:ale_floating_window_border = ['│', '─', '╭', '╮', '╯', '╰']
-let g:ale_disable_lsp = 1
+"let g:coc_node_path = ""
 
 call plug#begin()
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'dense-analysis/ale'
 Plug 'doums/darcula'
 
 call plug#end()
