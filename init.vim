@@ -44,6 +44,14 @@ colorscheme darcula
 "colorscheme PaperColor
 
 
+" GUI is running or is about to start.
+if has("gui_running")
+  " Maximize gvim window (for an alternative on Windows).
+  set guifont=DejaVu_Sans_Mono:h10:cEASTEUROPE:qDRAFT
+  set lines=999 columns=999
+endif
+
+
 " ==========================================
 " coc config (snippets from coc README)
 " ==========================================
