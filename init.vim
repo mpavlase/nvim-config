@@ -5,6 +5,8 @@ call plug#begin()
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'doums/darcula'
 Plug 'NLKNguyen/papercolor-theme'
+Plug 'myusuf3/numbers.vim'    "switching relative numbers
+Plug 'airblade/vim-gitgutter' "git markers
 
 call plug#end()
 
