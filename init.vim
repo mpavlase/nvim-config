@@ -16,9 +16,9 @@ set autoindent
 set smarttab
 set smartindent
 set expandtab
-set wildmenu
+
 set showmatch
-set wildmode=list:longest
+set wildmenu
 set colorcolumn=80
 set encoding=utf-8
 set number
