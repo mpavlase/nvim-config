@@ -37,6 +37,8 @@ set wildignore+=*/node_nodules/*
 
 "show non-printable characters
 set list
+set listchars+=trail:␣
+set listchars-=eol:$
 
 set termguicolors
 colorscheme darcula
